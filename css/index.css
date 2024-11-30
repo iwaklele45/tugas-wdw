@@ -116,11 +116,7 @@
     text-decoration: underline;
 }
 
-.card-landing {
-    text-align: center;
-    margin-top: 50vh;
-}
-
+/* Input password with eye icon */
 .input-password {
     position: relative;
     width: 100%;
@@ -146,29 +142,29 @@
     cursor: pointer;
 }
 
-/* Latar belakang overlay */
+/* Show modal */
 #forgotModal {
-    display: none; /* Default tersembunyi */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7); /* Warna overlay dengan transparansi */
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1000;
 }
 
-/* Kontainer isi modal */
+/* Container modal */
 .modal-content {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Posisi tengah */
-    width: 400px; /* Lebar modal */
-    background: #2c2f33; /* Warna gelap */
-    border-radius: 8px; /* Sudut membulat */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Bayangan lembut */
-    color: white; /* Warna teks */
+    transform: translate(-50%, -50%); 
+    width: 400px; 
+    background: #2c2f33; 
+    border-radius: 8px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: white;
     padding: 20px;
 }
 
@@ -186,7 +182,7 @@
     margin: 0;
 }
 
-/* Tombol tutup */
+/* Close button */
 .close-button {
     font-size: 20px;
     color: white;
@@ -195,7 +191,7 @@
 }
 
 .close-button:hover {
-    color: #f44336; /* Warna merah saat hover */
+    color: #f44336; 
 }
 
 /* Body modal */
@@ -225,7 +221,7 @@
 
 .modal-body input:focus,
 .modal-body textarea:focus {
-    border-color: #7289da; /* Warna biru saat fokus */
+    border-color: #7289da;
 }
 
 /* Footer modal */
@@ -235,10 +231,10 @@
     gap: 10px;
 }
 
-/* Tombol aksi */
+/* Action button */
 .btn-primary {
     padding: 10px 15px;
-    background: #7289da; /* Warna biru utama */
+    background: #7289da; 
     border: none;
     border-radius: 5px;
     color: white;
@@ -248,12 +244,12 @@
 }
 
 .btn-primary:hover {
-    background: #5b6eae; /* Biru lebih gelap saat hover */
+    background: #5b6eae; 
 }
 
 .btn-secondary {
     padding: 10px 15px;
-    background: #444; /* Warna abu-abu untuk tombol sekunder */
+    background: #444;
     border: none;
     border-radius: 5px;
     color: white;
@@ -263,5 +259,5 @@
 }
 
 .btn-secondary:hover {
-    background: #555; /* Lebih terang saat hover */
+    background: #555;
 }
